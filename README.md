@@ -6,3 +6,14 @@ A fraction $x_j$ of our total capital is to be invested in some assets $j$, wher
 The Markowitz Portfolio problem is then to determine $x = (x_1, ..., x_n)$ that minimizes the portfolio subject to the expected return $r$ being met. For a given $r$, we formulate the problem as
 
 $\min_{x \in \mathbb{R}^n} \frac{1}{2}x^TCx$ subject to $\mu^Tx = r$, $e^Tx = 1$, $x \geq 0$. We have used that $e = (1,...,1)$
+
+## Another Formulation
+
+
+
+## Modification (1) to the problem
+In this modification, we have the option to not invest all the capital. This means that we can model the problem as:
+
+## Modification (2) to the problem
+
+## Modification (3) to the problem
