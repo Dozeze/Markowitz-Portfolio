@@ -23,7 +23,7 @@ Note that $C$ is positive definite.
 
 ## Another Formulation
 
-Since the problem is convex (since constraints are linear and C positive definite), the Lagrangian will be of the form $L(x, u, v) = \frac{1}{2}x^TCx + u(r - \mu^Tx) + v(1 - e^Tx) $. Hence $\nabla_x L(x, y_1, y_2) = Cx - \mu u + e v = 0$. This means that we can write the problem as:
+Since the problem is convex (since constraints are linear and C positive definite), and the Lagrangian is $L(x, u, v) = \frac{1}{2}x^TCx + u(r - \mu^Tx) + v(1 - e^Tx) $, then this implies that $\nabla_x L(x, u, v) = Cx - \mu u + e v = 0$. This means that we can write the problem as:
 
 $Cx - \mu u + e v = 0$,
 $r - \mu^Tx = 0$,
