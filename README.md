@@ -25,7 +25,10 @@ Note that $C$ is positive definite.
 
 Since the problem is convex (since constraints are linear and C positive definite), the Lagrangian will be of the form $L(x, u, v) = \frac{1}{2}x^TCx + u(r - \mu^Tx) + v(1 - e^Tx) $. Hence $\nabla_x L(x, y_1, y_2) = Cx - \mu u + e v = 0$. This means that we can write the problem as:
 
-$Cx - \mu u + e v = 0$, $r - \mu^Tx = 0$, $e^Tx -1 = 0$, where $x \in \mathbb{R}^n$, $u \in \mathbb{R}$ and $v \in \mathbb{R}$
+$Cx - \mu u + e v = 0$,
+$r - \mu^Tx = 0$,
+$e^Tx -1 = 0$,
+where $x \in \mathbb{R}^n$, $u \in \mathbb{R}$ and $v \in \mathbb{R}$
 
 ## Modification (1) to the problem
 In this modification, we have the option to not invest all the capital. This means that we can model the problem as:
