@@ -8,7 +8,7 @@ This material is only used for educational purposes only and is not intended to 
 
 The purpose is to learn how to make your own portfolio based on Markowitz Portfolio Optimization. We will be using QP to solve this problem. Note that you can solve this problem in either MATLAB or Python. Code will be provided in one of the folders.
 
-You can calculate "$C$" here: https://www.portfoliovisualizer.com/asset-correlations
+You can calculate " $C$ " here: https://www.portfoliovisualizer.com/asset-correlations
 and the random variable $\zeta$ on your own
 , if you want to compare the results to real assets...
 
