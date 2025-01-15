@@ -33,6 +33,11 @@ where $x \in \mathbb{R}^n$, $u \in \mathbb{R}$ and $v \in \mathbb{R}$
 ## Modification (1) to the problem
 In this modification, we have the option to not invest all the capital. This means that we can model the problem as:
 
+$Cx - \mu u + e v = 0$,
+$r - \mu^Tx = 0$,
+$e^Tx -1 \leq 0$, $(e^Tx -1)v = 0$,
+where $x \in \mathbb{R}^n$, $u \in \mathbb{R}$ and $v \geq 0$
+
 ## Modification (2) to the problem
 
 ## Modification (3) to the problem
