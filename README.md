@@ -14,6 +14,9 @@ and the random variable $\zeta$ on your own
 
 Also, we will be using Optimization Toolbox in MATLAB.
 
+## How do we do it?
+We will investigate instances of "r" (Explained in formulation), and based on the return, pick an optimal point which will give the best risk-to-reward instance.
+
 ## Formulation
 A fraction $x_j$ of our total capital is to be invested in some assets $j$, where $j = 1,2,...,n$. We model the return of each assets as a ranbom variable $\zeta_j$. We assume that the expected value $\mathbb{E}[\zeta_j] = \mu_j$, and our covariance matrix $C_{ij} = \mathbb{E}[(\zeta_i - \mu_i)(\zeta_j - \mu_j)]$ are known, where $i,j = 1,2,...,n$. The return of an assets is defined as the relative change of the asset price in a year.
 
